@@ -157,6 +157,9 @@ html,body{
     text-decoration: underline;
     border-radius: 3px;
 }
+@media screen (max-width: 470px){
+    
+}
 /* HERO Ends */
 
 /* Plansection Starts */
@@ -189,6 +192,10 @@ html,body{
     padding-top: 30px;
     color: rgb(82, 183, 82);
     font-family: 'Poppins', sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+
+
 }
 .about_heading{
     padding-left:50px ;
