@@ -9,13 +9,17 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+#change{
+    color: rgb(42, 111, 42);
+}
 
 .navbar-one{
-    background-color: #777;
-    color: white;
-    height: 80px;
+    background-color: #fcfafa;
+    color: rgb(91, 91, 91);
+    height: 85px;
     cursor: pointer;
     position: relative;
+    width: auto;
 }
 
 .left > div + div{
@@ -39,18 +43,20 @@ span{
 }
 
 .navbar-second{
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     height: 70px;
     width: 80%;
     position: absolute;
     top: 50px;
     left: 10%;
+    margin-top: 20px;
 }
 .logo{
     text-transform: uppercase;
     font-size: 1.2rem;
     cursor: pointer;
-    color: #007bff;
+    color: #050606;
 }
 
 li{
@@ -84,6 +90,7 @@ a{
     background: #fff;
 
 }
+
 @media screen and (max-width:470px) {
     .navbar-second{
         display: block;
@@ -102,6 +109,16 @@ a{
 }
 .toggle{
     display: block;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 1.2rem;
+}
+.sidebaricon{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 1.2rem;
 }
 }
 .container{
