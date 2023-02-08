@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Lobster&family=Passions+Conflict&family=Poppins:ital,wght@0,300;0,500;1,200;1,300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Lobster&family=Passions+Conflict&family=Poppins:ital,wght@0,300;0,500;1,200;1,300&display=swap"
+        rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-        
+
 </head>
+
 <body>
     <nav class="navbar-one flex">
         <div class="left flex">
@@ -20,12 +24,12 @@
                 <i class="fa fa-envelope"></i>
                 <span>info@yourdomain.com</span>
             </div>
-        <div class="call">
-            <i class="fa fa-phone-alt"></i>
+            <div class="call">
+                <i class="fa fa-phone-alt"></i>
                 <span>+91 700688998</span>
             </div>
         </div>
-        <div class="right flex">
+        <div id="change" class="right flex">
             <div class="twitter">
                 <i class="fab fa-twitter"></i>
             </div>
@@ -47,34 +51,38 @@
     <nav class="navbar-second flex">
         <div class="flex">
             <div class="logo">
-                <h1>Travel Away</h1>
+                <h1>Travel <span class="active">AWAY</span> </h1>
             </div>
             <div class="toggle">
                 <i id="toggle" class="fa fa-bars"></i>
             </div>
         </div>
         <ul id="menu" class="flex">
-            <li class="menu"><a href="#">Home</a></li>
-            <li class="menu"><a href="#">About</a></li>
-            <li class="menu"><a href="#">Services</a></li>
-            <li class="menu"><a href="#">Tourpackages</a></li>
-            <li class="menu"><a href="#">pages</a></li>
-            <li class="menu"><a href="#">Contact</a></li>
+            <li class="menu-item"><a href="#" class="active">
+                    Home
+                </a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Services</a></li>
+            <li class="menu-item"><a href="#">Tourpackages</a></li>
+            <li class="menu-item"><a href="#">pages</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
         </ul>
-    </nav> 
-<div class="sidebar hidden">
-    <h2 class="heading">TRAVEL AWAY</h2>
-    <hr/>
-    <div class="">abrar</div>
-    <div class="">abrar</div>
-    <div class="">abrar</div>
-</div>
-    <!-- HERO Starts -->
-    <div class="container" style="background-image: url('/assets/img/carousel-2.jpg');" >
+    </nav>
+    <div class="sidebar hidden">
+        <h2 class="heading"> TRAVEL AWAY</h2>
+        <hr>
+        <div class="sidebaricon">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="container" style="background-image: url('/assets/img/carousel-2.jpg');">
         <h2 class="hero__top">TOURS & TRAVEL</h2>
         <h1 class="hero__text">Discover Amazing<br>
             Places With Us</h1>
-       <button type="submit" class="btn">Book Now</button>
+        <button type="submit" class="btn">Book Now</button>
     </div>
     <!-- HERO Ends -->
 
@@ -90,10 +98,12 @@
             <h1 class="about_heading">
                 We Provide Best Tour Packages In Your Budget
             </h1>
-            <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dignissimos nulla. Culpa, deserunt. Repellat veritatis, nemo explicabo vero eum dolorem vitae magni? Impedit quisquam quaerat aperiam, ab laboriosam</p>
+            <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dignissimos
+                nulla. Culpa, deserunt. Repellat veritatis, nemo explicabo vero eum dolorem vitae magni? Impedit
+                quisquam quaerat aperiam, ab laboriosam</p>
             <div class="about_images">
                 <img src="/assets/img/about-1.jpg" width="300px" height="180px">
-                <img  src="/assets/img/about-2.jpg" width="300px" height="180px">
+                <img src="/assets/img/about-2.jpg" width="300px" height="180px">
 
             </div>
             <button type="submit" class="about_btn">Book Now</button>
@@ -102,13 +112,13 @@
     </div>
     <div class="about_bottom">
         <div class="icon">
-                <i class="fas fa-money-check-alt"></i>
+            <i class="fas fa-money-check-alt"></i>
         </div>
-            <div class="icon_block">
-                <h3 class="icon_heading">Competitive pricing</h3>
-                <p class="icon_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, amet!</p>
-            </div>
-        
+        <div class="icon_block">
+            <h3 class="icon_heading">Competitive pricing</h3>
+            <p class="icon_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, amet!</p>
+        </div>
+
         <div class="icon">
             <i class="	fas fa-award"></i>
         </div>
@@ -119,18 +129,19 @@
 
         <div class="icon">
             <i class="fas fa-globe"></i>
-        </div>  
-        <div class="icon_block"> 
+        </div>
+        <div class="icon_block">
             <h3 class="icon_heading">Worldwide Coverage</h3>
             <p class="icon_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, amet!</p>
         </div>
-    
-    </div>
-    <div class="arrow_icon">
-        <i class="fas fa-angle-double-up"></i>
-    </div>
 
-    
-<script src="app.js"></script>
+    </div>
+    <!-- <div class="arrow_icon">
+        <i class="fas fa-angle-double-up"></i>
+    </div> -->
+
+
+    <script src="app.js"></script>
 </body>
+
 </html>
