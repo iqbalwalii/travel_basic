@@ -58,11 +58,11 @@ span {
   color: #050606;
 }
 
-li {
+#menu > li {
   list-style: none;
 }
 
-a {
+#menu > li > a {
   text-decoration: none;
   text-transform: capitalize;
   font-size: 16px;
@@ -99,7 +99,7 @@ a {
     font-size: 1rem;
   }
 
-  .menu {
+  .menu-item {
     margin-top: 15px;
     display: none;
   }
