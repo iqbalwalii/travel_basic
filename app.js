@@ -1,11 +1,14 @@
-const img=document.querySelector('.container');
+const sidebar =document.querySelector('.sidebar');
+document.querySelector('.toggle').addEventListener('click', ()=> sidebar.classList.toggle('hidden') );
+const img =document.querySelector('.container');
+console.log(img)
 let interval=0;
 setInterval(function(){
     const images=[
-        'url("/assets/img/carousel-1.jpg")',
-        'url("/assets/img/carousel-2.jpg")',
-        'url("/assets/img/carousel-3.jpg")',
-        'url("/assets/img/carousel-4.jpg")'
+        'url("./assets/img/carousel-1.jpg")',
+        'url("./assets/img/carousel-2.jpg")',
+        'url("./assets/img/carousel-3.jpg")',
+        'url("./assets/img/carousel-4.jpg")'
     ];  
     if (interval < (images.length - 1)) {
         interval++;
