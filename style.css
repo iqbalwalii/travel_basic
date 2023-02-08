@@ -12,7 +12,7 @@ nav {
   color: rgb(42, 111, 42);
 }
 .active {
-  color: green;
+  color: #7ab730 !important;
 }
 .navbar-one {
   background-color: #fcfafa;
