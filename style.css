@@ -2,7 +2,13 @@ nav {
   padding: 0 50px;
   width: 100%;
 }
-
+.sidebaricon > a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  text-align: center;
+  margin-top: 1rem;
+}
 .flex {
   display: flex;
   justify-content: space-between;
