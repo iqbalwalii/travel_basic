@@ -1,0 +1,71 @@
+.travel__images{
+    display: flex;
+    justify-content: space-around;
+
+}
+.travel__head{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-size: bolder;
+}
+.travel__section{
+    margin-left: 100px;
+    margin-right: 105px;
+}
+.guide__head{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(34, 33, 33);
+}
+.guide__text{
+    margin-top:-20px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+}
+.travel__guide{
+    padding-bottom: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+    position: relative;
+    /* transition: 2s all linear; */
+}
+
+.travel__guide__overlay{
+    display: none;
+    /* transition: 2s all linear; */
+}
+.travel__guide:hover .travel__guide__overlay{
+    color: #7ab730;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.484);
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 280px;
+   }
+   .travel__guide:hover .travel__guide__overlay > .overlay__icon >i{
+    padding: 10px 10px;
+    border: 1px solid #7ab730;
+   }
+  
+
+@media screen and (max-width:470px){
+    .travel__images{
+        margin-left: -18px;
+        flex-direction: column;
+
+    }
+    .travel__guide{
+        margin-right: -14px;
+    }
+  
+
+    
+}

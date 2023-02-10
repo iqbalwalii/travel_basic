@@ -123,18 +123,8 @@ span {
     font-size: 1.2rem;
   }
 }
-.container {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0px 0px;
-  padding: 0px 0px;
-  flex-direction: column;
-  align-items: center;
-}
+
+/* HERO Starts */
 
 .hero__top {
   font-family: "Poppins", sans-serif;
@@ -143,7 +133,6 @@ span {
   font-size: 40px;
   font-weight: bold;
 }
-/* HERO Starts */
 .container {
   display: flex;
   justify-content: center;
@@ -156,8 +145,8 @@ span {
   flex-direction: column;
   align-items: center;
 }
-html,
-body {
+html,body {
+  overflow-x: none;
   margin: 0px 0px;
   padding: 0px 0px;
   height: 100%;
@@ -188,6 +177,14 @@ body {
   cursor: pointer;
   text-decoration: underline;
   border-radius: 3px;
+}
+@media screen and (max-width:470px){
+  .hero__top{
+    font-size: 30px;
+  }
+  .hero__text{
+    font-size: 50px;
+  }
 }
 
 /* HERO Ends */
@@ -222,7 +219,7 @@ body {
   color: #7ab730;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 .about_heading {
   padding-left: 50px;
@@ -293,6 +290,10 @@ body {
   line-height: 1.3;
 }
 .arrow_icon {
+  position: fixed;
+  bottom: 0; 
+  right: 0;
+  z-index: 20;
   margin-right: 50px;
   font-size: 30px;
   color: white;
@@ -303,11 +304,33 @@ body {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 470px) {
-  .left_pic {
-    display: none;
+  .about_btn{
+    margin-top: -1px;
+    margin-left: 150px;
+  }
+  .about_images{
+    margin-left: 22px;
+  }
+  .icon_heading{
+    padding-top: 1rem;
+  }
+  .icon{
+    margin-left: 65px;
+    height: 60px;
+    width: 100px;
+  }
+  .left_pic > img{
+    width:400px ;
+    height: 600px;
+  }
+  .left_pic{
+    margin-left: 20px;
   }
   .right_section {
+    top: 40rem;
     left: 0;
+    width: 410px;
+    height: 58rem;
   }
   .about_images,
   .about_bottom {
@@ -317,9 +340,11 @@ body {
     margin-bottom: 2rem;
   }
   .about_bottom {
-    margin-top: 60rem;
-    margin-left: 50px;
-    /* width:  100%; */
+    margin-top: 67rem;
+    margin-left: 100px;
     text-align: center;
+  }
+  .plansection{
+    flex-direction: column;
   }
 }

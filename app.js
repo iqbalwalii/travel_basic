@@ -18,3 +18,4 @@ setInterval(function () {
   }
   img.style.backgroundImage = images[interval];
 }, 5000);
+
