@@ -2,6 +2,10 @@ nav {
   padding: 0 50px;
   width: 100%;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 li{
   list-style-type: none !important;
 }
@@ -152,7 +156,6 @@ span {
   align-items: center;
 }
 html,body {
-  overflow-x: none;
   margin: 0px 0px;
   padding: 0px 0px;
   height: 100%;
@@ -299,7 +302,7 @@ html,body {
   position: fixed;
   bottom: 0; 
   right: 0;
-  z-index: 20;
+  z-index: 200;
   margin-right: 50px;
   font-size: 30px;
   color: white;
@@ -308,6 +311,7 @@ html,body {
   margin-left: 1400px;
   padding: 12px 20px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 @media screen and (max-width: 470px) {
   .about_btn{
