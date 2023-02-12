@@ -1,93 +1,41 @@
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, .7);
+.destination__main {
+  padding: 3rem 2rem;
+  text-align: center;
 }
-
-.container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.destination__cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  justify-content: space-around;
 }
-.section-top{
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    color: rgb(93, 162, 93);
+.destination__card {
+  flex-basis: 30%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 1rem;
+  transition: all 0.6s linear;
 }
-.section-title{
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    padding: 45px 0 30px 0;
+.destination__card:hover {
+  background-position: center;
+  background-color: #fff;
 }
-.section-title::after{
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    left: 0;
+.destination__card__image__overlay {
+  background: rgba(0, 0, 0, 0.3960784314);
+  width: 80%;
+  height: 80%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.section-title > h4{
-    color: rgb(52, 118, 52);
-}
-
-.mainImg {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    
-}
-.imgs{
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, .4);
-    padding: 50px;
-    border-radius: 2px;
-}
-.imgBox {
-    overflow: hidden;
-    position: relative;
-}
-
-.imgHoverZoom {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    transition: all .7s ease;
-    cursor: pointer;
- 
-}
-.imgHoverZoom:hover {
-    transform: scale(1.5);
-}
-.img-boxoverlay{
-    position: absolute;
-    background: #0909095d;
-    left: 40px;
-    top: 40px;
-    padding: 1rem;
-    width: 60%;
-    z-index: 50;
-    text-align: center;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-}
-
-
-@media screen and (max-width: 992.99px) {
-    .mainImg {
-        grid-template-columns: repeat(2, 1fr);
-        box-shadow: none;
-        padding: 20px;
-    }
-}
-@media screen and (max-width: 768.99px) {
-    .mainImg {
-        grid-template-columns: repeat(1, 1fr);
-        box-shadow: none;
-        padding: 10px;
-    }
-    .imgHoverZoom {
-        width: 100%;
-    }
+@media screen and (max-width: 470px) {
+  .destination__cards {
+    flex-direction: column;
+    height: 1000px;
+    flex-wrap: nowrap;
+  }
 }
