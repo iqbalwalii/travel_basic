@@ -2,49 +2,37 @@
     text-align: center;
     letter-spacing: 4px;
     color: #7ab307;
-    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     padding-top: 80px;
 }
 .package__head{
     text-align: center;
-    font-family: "Poppins", sans-serif;
     font-size: 40px;
     font-weight: bolder;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 .package__images{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding-left: 155px;
-    /* margin-left: 200px; */
-    padding-right: 155px;
-    margin-top: 30px;
-    gap: 0px 50px;
-  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 0 2rem;
+   
 }
 .image__head{
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-    font-family: "Poppins", sans-serif;
+    font-size: 22px;
     color: rgba(0, 0, 0, 0.763);
     font-weight: lighter;
     font-size: 18px;
     padding-bottom: 20px;
-    margin-top: -10px;
 
 }
 .image__details{
     display: flex;
-    padding-top: 25px;
-    padding-left: 20px;
     justify-content: space-between;
-    padding-right: 30px;
-    font-family: "Poppins", sans-serif;
     font-size: 15px;
 }
 .image__card{
+    flex-basis: 30%;
     background-color: white;
     display: inline-block;
     margin-bottom: 40px;
@@ -56,18 +44,47 @@
 }
 .image__foot{
     display: flex;
-    padding-left: 20px;
+    justify-content: space-between;
 }
-.image__foot > i{
-    font-size: 17px;
+.rating > i{
+    font-size: 1.3rem;
     color: #7ab307;
     letter-spacing: 5px;
+    /* padding-top: 30px; */
 }
 .image__foot > p{
-    margin-left: 180px;
-    /* text-align: right; */
-    margin-top: -2px;
     font-size: 23px;
     font-weight: bold;
-    font-family: "Poppins", sans-serif;
 }
+.line{
+    border: none;
+    height: 1px;
+    background: #0d0d0d;
+}
+.image__footer{
+    padding: 20px 30px 10px 30px;
+}
+.rating{
+    padding-top: 25px;
+}
+.rating > b{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+@media screen and (max-width:470px){
+    .package__images{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .image__details{
+        flex-direction: column;
+    }
+    .image__foot{
+        flex-direction: column;
+    }
+    .image__head{
+        font-size: 16px;
+    }
+}
+    
+
