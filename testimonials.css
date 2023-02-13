@@ -6,13 +6,13 @@
 .change{
     color: rgb(69, 126, 69);
 }
-.carrd{
+.card_up{
     padding: 30px 50px;
     display: flex;
     justify-content: space-around;
 }
-.carrdd{
-    padding: 70px 50px;
+.card_test{
+    padding: 70px 0px;
     background-color: rgb(250, 251, 252);
     margin-top: 60px;
     flex-basis: 30%;
@@ -35,7 +35,10 @@
       .imgg{
         margin-left: 20px;
       }
-      .carrd{
+      .card_up{
         flex-direction: column;
+      }
+      .card_test{
+        margin-top: 80px;
       }
   }  

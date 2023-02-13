@@ -1,12 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-  }
 .imgs{
     margin-top: 20px;
-    height: 70vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,10 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px;
   }
 .top-left{
     margin-right: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .top-left > h4{
     color: #40a51e;
@@ -40,7 +35,7 @@
 }
 .wrapper{
     width: 25%;
-    margin-top: 3%;
+    margin: 0px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
@@ -66,7 +61,7 @@
   }
 .wrapper form .row input{
     height: 100%;
-    width: 100%;
+    width: 80%;
     outline: none;
     padding-left: 60px;
     border-radius: 5px;
@@ -95,11 +90,15 @@
     border-radius: 3px;
     font-size: 17px;
   } 
+  .row_submit{
+    width: 100%;
+    height: 100%;
+    background: #40a51e;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
   @media screen and (max-width:470px){
-    .imgs{
-        width:400px ;
-        height: 600px;
-      }
       .imgs{
         margin-left: 20px;
       }
@@ -108,7 +107,7 @@
       }
       .wrapper{
         flex-direction: column;
-        width: 70%;
+        width: 90%;
         margin-top: 50px;
       }
   }  
