@@ -66,13 +66,17 @@
     }
     .service__block{
      
-        width: 100%;
+        width: 90%;
 
     }
-    .services > h3,h1{
+    .service__top, .service__head{
         text-align: center;
     }
+  
     .service__head{
         font-size: 2rem;
+    }
+    .services{
+        padding: 0 2rem;
     }
 }
