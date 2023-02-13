@@ -2,6 +2,11 @@
     padding: 3rem 2rem;
     text-align: center;
   }
+  .destination__main >h3{
+    color:#7ab730 ;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
   .destination__cards {
     display: flex;
     flex-wrap: wrap;
