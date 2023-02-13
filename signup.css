@@ -1,0 +1,113 @@
+.imgs{
+    margin-top: 20px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+.top-left{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.top-left > h4{
+    color: #40a51e;
+}
+.active{
+    color: #40a51e;
+}
+.top-left > h1{
+    color: white;
+}
+.top-left > p{
+    color: white;
+    
+}
+.list{
+    color: white;
+}
+.wrapper{
+    width: 25%;
+    margin: 0px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+    height: 90px;
+    background: #40a51e;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.wrapper form{
+    padding: 30px 25px 25px 25px;
+  }  
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+.wrapper form .row input{
+    height: 100%;
+    width: 80%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  } 
+.wrapper form .row select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }  
+.wrapper form .submit input{
+    background: #40a51e;
+    color: #fff;
+    text-align: center;
+  }
+  .wrapper form .submit input:hover{
+    border: 2px solid #32b730;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 17px;
+  } 
+  .row_submit{
+    width: 100%;
+    height: 100%;
+    background: #40a51e;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  @media screen and (max-width:470px){
+      .imgs{
+        margin-left: 20px;
+      }
+      .top-left{
+        display: none;
+      }
+      .wrapper{
+        flex-direction: column;
+        width: 90%;
+        margin-top: 50px;
+      }
+  }  
