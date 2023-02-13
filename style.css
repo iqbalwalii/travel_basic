@@ -329,10 +329,12 @@ html,body {
   .left_pic{
     margin-left: 20px;
   }
-  .right_section {position: unset;
+  .right_section {
+    padding-left: 15px;
+    position: unset;
     top: 35rem;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: fit-content;
   }
   .about_images,
