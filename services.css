@@ -1,22 +1,19 @@
 .services{
-    margin-top: 70px;
-    margin-left: 130px;
-    margin-right: 130px;
+    padding: 100px 130px 80px 130px;
 }
 .service__top{
     text-align: center;
     color:  #7ab730;
     text-transform: uppercase;
     letter-spacing: 4.5px;
-    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
 
 }
 .service__head{
     text-align: center;
-    font-family: "Poppins", sans-serif;
     font-size: 2.8rem;
     font-weight: bolder;
-    margin-top: -18px;
+    margin-top: 0px;
     letter-spacing: 1px;
 
 }
@@ -26,8 +23,8 @@
     margin-top: 20px;
 }
 .service__block > i{
-    color: white;
-    background-color: #7ab730;
+    color: #7ab730;
+    background-color:white;
     height: 100%;
     width: 80px;
     display: flex;
@@ -35,6 +32,12 @@
     align-items: center;
     font-size: 30px;
     padding: 25px 0px;
+    border: 2px solid  #7ab730;;
+}
+.service__block > i:hover{
+    color: white;
+    background-color:  #7ab730;
+    cursor: pointer;
 }
 .service__block{
     height: 100%;
@@ -47,14 +50,12 @@
     align-items: center;
 }
 .block__head{
-    font-family: "Poppins", sans-serif;
     font-size: 20px;
     margin-top: 25px;
     color:rgb(16, 16, 16)
 }
 .block__text{
-    font-family: "Poppins", sans-serif;
-    margin-top: -10px;
+    margin-top: 0px;
     text-align: center;
     color:#777 ;
     font-size: 18px;
@@ -63,15 +64,13 @@
     .service__content{
      flex-direction: column;
     }
-    .services{
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 30px;
+    .service__block{
+     
+        width: 100%;
 
     }
-    .service__block{
-        margin-left: -40px;
-        width: 300px;
+    .services > h3,h1{
+        text-align: center;
     }
     .service__head{
         font-size: 2rem;
