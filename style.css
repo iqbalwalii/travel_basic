@@ -312,8 +312,11 @@ html,body {
     margin-right: 70px;
 
   }
+  .left_pic{
+    margin: 0px;
+  }
   .about_images{
-    margin-left: 22px;
+    /* margin-left: 22px; */
   }
   .icon_heading{
     padding-top: 1rem;
@@ -326,15 +329,12 @@ html,body {
     width:100% ;
     height: 500px;
   }
-  .left_pic{
-    margin-left: 20px;
-  }
+  
   .right_section {
     padding-left: 15px;
     position: unset;
-    top: 35rem;
-    left: 0;
-    width: 90%;
+    margin-top: 20px;
+    width: 85%;
     height: fit-content;
   }
   .about_images,
@@ -346,6 +346,7 @@ html,body {
     margin-bottom: 2rem;
   }
   .about_bottom {
+    margin: 0px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -356,7 +357,5 @@ html,body {
   .about_heading{
     font-size: 25px;
   }
-  .about_btn{
-    margin-left: 80px;
-  }
+
 }

@@ -36,6 +36,7 @@
 .wrapper{
     width: 25%;
     margin: 0px;
+    margin-top: 100px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
@@ -52,7 +53,7 @@
     justify-content: center;
   }
 .wrapper form{
-    padding: 30px 25px 25px 25px;
+    padding: 35px 30px 35px 30px;
   }  
 .wrapper form .row{
     height: 45px;
@@ -61,9 +62,8 @@
   }
 .wrapper form .row input{
     height: 100%;
-    width: 80%;
+    width: 100%;
     outline: none;
-    padding-left: 60px;
     border-radius: 5px;
     border: 1px solid lightgrey;
     font-size: 16px;
@@ -73,7 +73,6 @@
     height: 100%;
     width: 100%;
     outline: none;
-    padding-left: 60px;
     border-radius: 5px;
     border: 1px solid lightgrey;
     font-size: 16px;
@@ -99,9 +98,6 @@
     border: none;
   }
   @media screen and (max-width:470px){
-      .imgs{
-        margin-left: 20px;
-      }
       .top-left{
         display: none;
       }
