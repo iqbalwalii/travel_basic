@@ -1,41 +1,41 @@
 .destination__main {
-  padding: 3rem 2rem;
-  text-align: center;
-}
-.destination__cards {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem 0;
-  justify-content: space-around;
-}
-.destination__card {
-  flex-basis: 30%;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  margin: 1rem;
-  transition: all 0.6s linear;
-}
-.destination__card:hover {
-  background-position: center;
-  background-color: #fff;
-}
-.destination__card__image__overlay {
-  background: rgba(0, 0, 0, 0.3960784314);
-  width: 80%;
-  height: 80%;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-@media screen and (max-width: 470px) {
-  .destination__cards {
-    flex-direction: column;
-    height: 1000px;
-    flex-wrap: nowrap;
+    padding: 3rem 2rem;
+    text-align: center;
   }
-}
+  .destination__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    justify-content: space-around;
+  }
+  .destination__card {
+    flex-basis: 30%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 1rem;
+    transition: all 0.6s linear;
+  }
+  .destination__card:hover {
+    background-position: center;
+    background-color: #fff;
+  }
+  .destination__card__image__overlay {
+    background: rgba(0, 0, 0, 0.3960784314);
+    width: 80%;
+    height: 80%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 470px) {
+    .destination__cards {
+      flex-direction: column;
+      height: 1000px;
+      flex-wrap: nowrap;
+    }
+  }

@@ -108,5 +108,7 @@
       }
       .wrapper{
         flex-direction: column;
+        width: 70%;
+        margin-top: 50px;
       }
   }  

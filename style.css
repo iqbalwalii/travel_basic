@@ -137,7 +137,7 @@ span {
 /* HERO Starts */
 
 .hero__top {
-  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
   text-align: center;
   color: white;
   font-size: 40px;
@@ -156,6 +156,7 @@ span {
   align-items: center;
 }
 html,body {
+  font-family: "Poppins", sans-serif;
   margin: 0px 0px;
   padding: 0px 0px;
   height: 100%;
@@ -163,16 +164,14 @@ html,body {
 }
 .hero__text {
   line-height: 1.2;
-  font-family: "Poppins", sans-serif;
-  margin-top: -25px;
+  margin-top: 0px;
   color: white;
   text-align: center;
   font-size: 90px;
   justify-content: center;
 }
 .btn {
-  font-family: "Poppins", sans-serif;
-  margin-top: -10px;
+  margin-top: 0px;
   background-color: #7ab730;
   color: white;
   border: none;
@@ -208,11 +207,12 @@ html,body {
   margin-left: 150px;
 }
 .about_images {
-  padding-left: 26px;
+  padding-right: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .right_section {
+  padding-left: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   width: 730px;
@@ -220,39 +220,32 @@ html,body {
   position: absolute;
   top: 120px;
   left: 600px;
-  height: 550px;
+  height: 70%;
 }
 .about {
-  padding-left: 50px;
   padding-top: 30px;
   color: #7ab730;
-  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
 .about_heading {
-  padding-left: 50px;
   font-size: 50px;
-  font-family: "Poppins", sans-serif;
   font-weight: bolder;
-  margin-top: -15px;
+  margin-top: 0px;
   line-height: 1.1;
+  margin-bottom: 0px;
 }
 .about_text {
-  padding-left: 50px;
-  margin-top: -20px;
-  font-family: "Poppins", sans-serif;
+  /* margin-top: 0px; */
   color: #777;
 }
 .about_btn {
-  margin-left: 50px;
   margin-top: 30px;
   height: 40px;
   width: 100px;
   border: none;
   background-color: #7ab730;
   color: white;
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
 .about_btn:hover {
@@ -268,10 +261,8 @@ html,body {
   margin-right: 100px;
 }
 .icon {
-  /* font-size: 35px; */
   color: rgb(241, 249, 241);
   background-color: #7ab730;
-  display: inline-block;
   text-align: center;
   display: flex;
   width: 250px;
@@ -279,20 +270,22 @@ html,body {
   height: 100px;
   justify-content: center;
   align-items: center;
+  margin-top: 24px;
+
 }
 .icon_block {
+  margin-bottom: 0px;
   padding-right: 30px;
   margin-left: 15px;
-  margin-top: -28px;
+  margin-top: 0px;
 }
 .icon_heading {
-  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
   font-size: 22px;
   color: #181818;
 }
 .icon_text {
-  font-family: "Poppins", sans-serif;
-  margin-top: -20px;
+  margin-top: 0px;
   font-size: 20px;
   color: #777;
   font-size: 18px;
@@ -315,8 +308,7 @@ html,body {
 }
 @media screen and (max-width: 470px) {
   .about_btn{
-    margin-top: -1px;
-    margin-left: 150px;
+  
   }
   .about_images{
     margin-left: 22px;
@@ -325,33 +317,31 @@ html,body {
     padding-top: 1rem;
   }
   .icon{
-    margin-left: 65px;
     height: 60px;
     width: 100px;
   }
   .left_pic > img{
-    width:400px ;
-    height: 600px;
+    width:100% ;
+    height: 500px;
   }
   .left_pic{
     margin-left: 20px;
   }
-  .right_section {
-    top: 40rem;
+  .right_section {position: unset;
+    top: 35rem;
     left: 0;
-    width: 410px;
-    height: 58rem;
+    width: 100%;
+    height: fit-content;
   }
   .about_images,
   .about_bottom {
     flex-direction: column;
   }
   .about_images > img {
+    width: 100%;
     margin-bottom: 2rem;
   }
   .about_bottom {
-    margin-top: 67rem;
-    margin-left: 100px;
     text-align: center;
   }
   .plansection{

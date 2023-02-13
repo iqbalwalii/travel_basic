@@ -1,27 +1,23 @@
 .travel__images{
     display: flex;
     justify-content: space-around;
-
 }
 .travel__head{
     text-align: center;
-    font-family: "Poppins", sans-serif;
     font-size: 45px;
     font-size: bolder;
 }
 .travel__section{
-    margin-left: 100px;
-    margin-right: 105px;
+    padding-left: 100px;
+    padding-right: 105px;
 }
 .guide__head{
-    font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 1.4rem;
     color: rgb(34, 33, 33);
 }
 .guide__text{
-    margin-top:-20px;
-    font-family: "Poppins", sans-serif;
+    margin-top:0px;
     text-align: center;
     font-size: 1.2rem;
     color: #777;
@@ -58,14 +54,7 @@
 
 @media screen and (max-width:470px){
     .travel__images{
-        margin-left: -18px;
         flex-direction: column;
 
     }
-    .travel__guide{
-        margin-right: -14px;
-    }
-  
-
-    
 }
