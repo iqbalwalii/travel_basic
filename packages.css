@@ -15,7 +15,7 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
-   padding: 0 2rem;
+   padding: 0 7rem;
    
 }
 .image__head{
@@ -24,6 +24,11 @@
     font-weight: lighter;
     font-size: 18px;
     padding-bottom: 20px;
+
+}
+.image__head:hover{
+    cursor: pointer;
+    color: #0d0d0d78;
 
 }
 .image__details{
@@ -36,7 +41,10 @@
     background-color: white;
     display: inline-block;
     margin-bottom: 40px;
-    box-shadow:  10px 15px 25px rgba(0, 0, 0, .1);
+  
+}
+.image__card:hover{
+    box-shadow:  15px 15px 25px rgba(0, 0, 0, .1);
 }
 .image__icon > i{
     color: #7ab307;
@@ -45,6 +53,7 @@
 .image__foot{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .rating > i{
     font-size: 1.3rem;
@@ -64,15 +73,14 @@
 .image__footer{
     padding: 20px 30px 10px 30px;
 }
-.rating{
-    padding-top: 25px;
-}
+
 .rating > b{
     font-size: 1.3rem;
     letter-spacing: 2px;
 }
 @media screen and (max-width:470px){
     .package__images{
+        padding: 0 2rem;
         flex-direction: column;
         /* justify-content: center; */
     }

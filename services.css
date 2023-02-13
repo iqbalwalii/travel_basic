@@ -23,8 +23,8 @@
     margin-top: 20px;
 }
 .service__block > i{
-    color: white;
-    background-color: #7ab730;
+    color: #7ab730;
+    background-color:white;
     height: 100%;
     width: 80px;
     display: flex;
@@ -32,6 +32,12 @@
     align-items: center;
     font-size: 30px;
     padding: 25px 0px;
+    border: 2px solid  #7ab730;;
+}
+.service__block > i:hover{
+    color: white;
+    background-color:  #7ab730;
+    cursor: pointer;
 }
 .service__block{
     height: 100%;
