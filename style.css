@@ -311,8 +311,6 @@ html,body {
     padding: 10px 25px;
     margin-right: 70px;
 
-
-
   }
   .about_images{
     margin-left: 22px;
@@ -347,8 +345,16 @@ html,body {
   }
   .about_bottom {
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .plansection{
     flex-direction: column;
+  }
+  .about_heading{
+    font-size: 25px;
+  }
+  .about_btn{
+    margin-left: 80px;
   }
 }
