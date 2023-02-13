@@ -73,6 +73,12 @@
 .image__footer{
     padding: 20px 30px 10px 30px;
 }
+
+.rating{
+    padding-top: 25px;
+}
+
+
 .rating > b{
     font-size: 1.3rem;
     letter-spacing: 2px;
