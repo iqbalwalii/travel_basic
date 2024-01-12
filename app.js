@@ -1,5 +1,7 @@
 const sidebar = document.querySelector(".sidebar");
-const arrow = document.querySelector('.arrow_icon')
+const arrow = document.querySelector(".arrow_icon");
+import { checkPassword } from "./index";
+
 document
   .querySelector(".toggle")
   .addEventListener("click", () => sidebar.classList.toggle("hidden"));
@@ -19,4 +21,4 @@ setInterval(function () {
   }
   img.style.backgroundImage = images[interval];
 }, 5000);
-arrow.addEventListener('click', ()=> window.scrollTo(0,0))
+arrow.addEventListener("click", () => window.scrollTo(0, 0));
